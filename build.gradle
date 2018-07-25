@@ -15,9 +15,10 @@ repositories {
 
 
 dependencies {
+	compile('org.springframework.boot:spring-boot-starter-web')
 	compile 'org.springframework:spring-oxm:4.3.7.RELEASE'
 	compileOnly('org.projectlombok:lombok:1.16.12')
-	runtime('mysql:mysql-connector-java')
+	compile ("org.postgresql:postgresql")
 	compile('org.springframework.boot:spring-boot-starter-batch:1.5.2.RELEASE')
 	testCompile('org.springframework.boot:spring-boot-starter-test:1.5.2.RELEASE')
 }

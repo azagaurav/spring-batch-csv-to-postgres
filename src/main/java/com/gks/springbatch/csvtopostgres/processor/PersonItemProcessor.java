@@ -1,9 +1,9 @@
-package com.gks.springbatch.csvtomysql.processor;
+package com.gks.springbatch.csvtopostgres.processor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.batch.item.ItemProcessor;
 
-import com.gks.springbatch.csvtomysql.model.Person;
+import com.gks.springbatch.csvtopostgres.model.Person;
 
 @Slf4j
 public class PersonItemProcessor implements ItemProcessor<Person, Person> {

@@ -1,8 +1,8 @@
-package com.gks.springbatch.csvtomysql.jobs;
+package com.gks.springbatch.csvtopostgres.jobs;
 
-import com.gks.springbatch.csvtomysql.listener.JobCompletionNotificationListener;
-import com.gks.springbatch.csvtomysql.model.Person;
-import com.gks.springbatch.csvtomysql.processor.PersonItemProcessor;
+import com.gks.springbatch.csvtopostgres.listener.JobCompletionNotificationListener;
+import com.gks.springbatch.csvtopostgres.model.Person;
+import com.gks.springbatch.csvtopostgres.processor.PersonItemProcessor;
 
 import javax.sql.DataSource;
 import org.springframework.batch.core.Job;

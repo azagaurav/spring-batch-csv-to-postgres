@@ -1,4 +1,4 @@
-package com.gks.springbatch.csvtomysql.listener;
+package com.gks.springbatch.csvtopostgres.listener;
 
 
 import java.sql.ResultSet;
@@ -12,7 +12,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
 
-import com.gks.springbatch.csvtomysql.model.Person;
+import com.gks.springbatch.csvtopostgres.model.Person;
 
 @Component
 @Slf4j

@@ -1,4 +1,4 @@
-package com.gks.springbatch.csvtomysql.model;
+package com.gks.springbatch.csvtopostgres.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
